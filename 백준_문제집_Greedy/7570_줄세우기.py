@@ -15,4 +15,4 @@ for i in range(1,len(nums)-1):
     else:
         count=1
 
-print(n-max)
+print(n-max if n != 1 else 0)
